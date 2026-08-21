@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/mercadolivre-mcp",
+  "title": "Mercado Livre Vendedor",
+  "description": "Mercado Livre (Latin America's largest marketplace) via the official API, seller profile and reputat",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/mercadolivre-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_mercadolivre"
+    }
+  ]
+}
